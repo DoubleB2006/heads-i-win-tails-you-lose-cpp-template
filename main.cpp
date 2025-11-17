@@ -1,7 +1,6 @@
-#include <iostream>
-
-#include "src/factorial.hpp"
+#include "src/coinflip.hpp"
 
 int main() {
-  std::cout << "The factorial of 5 is " << factorial(5) << std::endl;
+    runCoinFlipSimulation();
+    return 0;
 }
